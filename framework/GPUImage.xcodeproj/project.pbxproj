@@ -1706,6 +1706,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SYMROOT = "$(PROJECT_DIR)/Source";
 			};
 			name = Debug;
 		};
@@ -1720,6 +1721,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SYMROOT = "$(PROJECT_DIR)/Source";
 			};
 			name = Release;
 		};
